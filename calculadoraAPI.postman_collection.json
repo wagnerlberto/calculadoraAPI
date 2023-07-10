@@ -23,6 +23,34 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "calculadora com parâmetros",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/calculadora?valor1=5&valor2=8",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"calculadora"
+					],
+					"query": [
+						{
+							"key": "valor1",
+							"value": "5"
+						},
+						{
+							"key": "valor2",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
